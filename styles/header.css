@@ -1,0 +1,44 @@
+header{
+  padding-block: 32px;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 32px;
+  align-items: center;
+}
+
+#container{
+  display: flex;
+  gap: 32px;
+  height:176px;
+  align-items: flex-start;
+}
+
+#intro{
+  display: flex;
+  max-width: 384px;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#intro p{
+  font: var(--text-md);
+}
+
+#info{
+  display: flex;
+  width: 280px;
+  flex-direction: column;
+  list-style: none;
+  justify-content: center;
+  gap: 16px;
+}
+
+li{
+  display: flex;
+  gap: 8px;
+}
+h1{
+  font: var(--text-lg);
+  color: var(--text-color-primary);
+}
+
